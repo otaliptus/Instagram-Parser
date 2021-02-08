@@ -1,4 +1,6 @@
 # Protecting my personal data.
-
 *.txt
 *.json
+
+# No need to upload .idea folder.
+.idea/
