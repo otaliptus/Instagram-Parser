@@ -12,5 +12,4 @@ for chat in file:
             participants.remove(user_nick)
         file_name = participants[0] + '.txt'
         with open(file_name, 'w', encoding='utf-8') as chat_file:
-            # print(type(conversation))
-            chat_file.write(str(conversation))
+            chat_file.write(json.dumps(conversation, indent=2, sort_keys=True, ensure_ascii=False))
