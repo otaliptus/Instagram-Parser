@@ -4,7 +4,7 @@ import os
 with open('messages.json', 'r', encoding='utf-8') as f:
     file = json.load(f)
 
-user_nick = input('Enter your nick:')
+user_nick = input('Enter your nick: ')
 dirname = os.path.dirname(__file__)
 
 # There might be more effective ways but I'm sleepy right now :)
