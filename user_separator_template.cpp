@@ -1,3 +1,8 @@
+// This extremely fundamental template is the first one
+// that I used string manipulation to parse the data.
+// I am/will not use this in this project, it's just a basic template.
+
+
 #include <iostream>
 
 int main(){
