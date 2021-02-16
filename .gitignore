@@ -2,5 +2,11 @@
 *.txt
 *.json
 
+# Archive now returns medias in the same main folder with chats.
+*.mp4
+*.jpg
+
 # No need to upload .idea folder.
 .idea/
+chats/
+messages/
