@@ -5,7 +5,7 @@ dirname = os.path.dirname(__file__)
 
 
 def combiner(current_path, file):
-    print(current_path, file)
+    # TODO: Fix unicode.
     with open(os.path.join(current_path, file), 'r', encoding='utf-8') as input_file:
         text = json.load(input_file)
         # TODO: Fix facebook user conflict.
