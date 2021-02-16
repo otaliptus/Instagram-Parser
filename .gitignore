@@ -1,12 +1,13 @@
 # Protecting my personal data.
 *.txt
 *.json
+chats/
+messages/
 
 # Archive now returns medias in the same main folder with chats.
 *.mp4
+*.m4a
 *.jpg
 
 # No need to upload .idea folder.
 .idea/
-chats/
-messages/
